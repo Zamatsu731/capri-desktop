@@ -1,0 +1,228 @@
+{
+  "repository": "https://github.com/lachydotmcg/capri-desktop",
+  "commit": "0b2dd14cdc2ad617cb5d76a06b764d9aaf72968f",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "requiredNotice": "Required Notice: Copyright 2026 Lachy (https://github.com/lachydotmcg)",
+  "files": [
+    {
+      "name": "idle",
+      "frames": 16,
+      "fps": 8,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 660767,
+      "sourceSha256": "ed63f8c677afa9c2be8b76e850547882b88fa76ea9206e3d20f758cce65ed2a0",
+      "sha256": "ed63f8c677afa9c2be8b76e850547882b88fa76ea9206e3d20f758cce65ed2a0",
+      "source": "assets/sprites/idle.png"
+    },
+    {
+      "name": "blink",
+      "frames": 4,
+      "fps": 8,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 192228,
+      "sourceSha256": "c0c8b7b423558804f92d53ac6572fca6c61717533c950718bb3e1690fa3e056c",
+      "sha256": "c0c8b7b423558804f92d53ac6572fca6c61717533c950718bb3e1690fa3e056c",
+      "source": "assets/sprites/blink.png"
+    },
+    {
+      "name": "blink_glitch",
+      "frames": 4,
+      "fps": 8,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 195101,
+      "sourceSha256": "177ca393b6721ff6d1ce94ce8dc444c33a1394f88cba0352075b4ea200688822",
+      "sha256": "177ca393b6721ff6d1ce94ce8dc444c33a1394f88cba0352075b4ea200688822",
+      "source": "assets/sprites/blink_glitch.png"
+    },
+    {
+      "name": "grin",
+      "frames": 16,
+      "fps": 8,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 663789,
+      "sourceSha256": "760e8f9378389d6776f9e2477ffcb9e2c62a0a56bffce328c5d8c6710b21dbd4",
+      "sha256": "760e8f9378389d6776f9e2477ffcb9e2c62a0a56bffce328c5d8c6710b21dbd4",
+      "source": "assets/sprites/grin.png"
+    },
+    {
+      "name": "glitch",
+      "frames": 10,
+      "fps": 15,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 718323,
+      "sourceSha256": "f108f696a36db25de2162b128982ef30ae1c066b6594885b284bab8b22d80252",
+      "sha256": "f108f696a36db25de2162b128982ef30ae1c066b6594885b284bab8b22d80252",
+      "source": "assets/sprites/glitch.png"
+    },
+    {
+      "name": "dangle",
+      "frames": 24,
+      "fps": 10,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 1170475,
+      "sourceSha256": "0d92f9ece48e0c0ccc728cb49322227c73f34458b14eb32606020bf3c5c98b5f",
+      "sha256": "0d92f9ece48e0c0ccc728cb49322227c73f34458b14eb32606020bf3c5c98b5f",
+      "source": "assets/sprites/dangle.png"
+    },
+    {
+      "name": "sleep",
+      "frames": 16,
+      "fps": 6,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 1375093,
+      "sourceSha256": "f6dd6452ec73eebf1a04e4720771e1cd6f18c383aff3b1590478d12324f971a5",
+      "sha256": "f6dd6452ec73eebf1a04e4720771e1cd6f18c383aff3b1590478d12324f971a5",
+      "source": "assets/sprites/sleep.png"
+    },
+    {
+      "name": "wake",
+      "frames": 13,
+      "fps": 15,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 890526,
+      "sourceSha256": "89a0ba1f5f000a310224ea074ff27c51da864301071a083c157f2213116555ba",
+      "sha256": "89a0ba1f5f000a310224ea074ff27c51da864301071a083c157f2213116555ba",
+      "source": "assets/sprites/wake.png"
+    },
+    {
+      "name": "walk",
+      "frames": 12,
+      "fps": 12,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 99529,
+      "sourceSha256": "68d8cc71cde4a240447f190136a075e10ef6f71520015cdee8ceefc202b2aebd",
+      "sha256": "68d8cc71cde4a240447f190136a075e10ef6f71520015cdee8ceefc202b2aebd",
+      "source": "assets/sprites/walk.png"
+    },
+    {
+      "name": "dance",
+      "frames": 16,
+      "fps": 8,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 141334,
+      "sourceSha256": "133e7264f411391257fbb5795d47631b6c4d9b612f9975c9a703f90c6e48c152",
+      "sha256": "133e7264f411391257fbb5795d47631b6c4d9b612f9975c9a703f90c6e48c152",
+      "source": "assets/sprites/dance.png"
+    },
+    {
+      "name": "arrive",
+      "frames": 14,
+      "fps": 15,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 131265,
+      "sourceSha256": "be03a983e65d2de7fc9ef3f992759610431ee5f4a750af580d36dfe607ca51c7",
+      "sha256": "be03a983e65d2de7fc9ef3f992759610431ee5f4a750af580d36dfe607ca51c7",
+      "source": "assets/sprites/arrive.png"
+    },
+    {
+      "name": "leave",
+      "frames": 12,
+      "fps": 15,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 108996,
+      "sourceSha256": "40b52533b57ab33c896a050f9968f639dcea8203d61ab717e1e0140d59b18d58",
+      "sha256": "40b52533b57ab33c896a050f9968f639dcea8203d61ab717e1e0140d59b18d58",
+      "source": "assets/sprites/leave.png"
+    },
+    {
+      "name": "mouth",
+      "frames": 5,
+      "fps": 12,
+      "frameWidth": 240,
+      "height": 384,
+      "bytes": 4197,
+      "sourceSha256": "50ceb781213aeb439197499968637f6aec0e9e9504c5261316aebc8292e71c0d",
+      "sha256": "50ceb781213aeb439197499968637f6aec0e9e9504c5261316aebc8292e71c0d",
+      "source": "assets/sprites/mouth.png"
+    },
+    {
+      "name": "perch",
+      "frames": 16,
+      "fps": 8,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 813412,
+      "sourceSha256": "9a5532e70ab5a5c4f2b17e6f58a89a6b274ad8c870fb23531ba6534c92336aa0",
+      "sha256": "9a5532e70ab5a5c4f2b17e6f58a89a6b274ad8c870fb23531ba6534c92336aa0",
+      "source": "assets/sprites/perch.png"
+    },
+    {
+      "name": "perch_blink",
+      "frames": 4,
+      "fps": 8,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 221666,
+      "sourceSha256": "11f7bdb6e8c862965d295e0a79cb6464cd4da1d61eb4dbc95c09b85c4ac1ca8e",
+      "sha256": "11f7bdb6e8c862965d295e0a79cb6464cd4da1d61eb4dbc95c09b85c4ac1ca8e",
+      "source": "assets/sprites/perch_blink.png"
+    },
+    {
+      "name": "perch_blink_glitch",
+      "frames": 4,
+      "fps": 8,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 224017,
+      "sourceSha256": "396bcfa7184140371b8c039210574583fdd824458e67d89a0c02b7bf3967ee83",
+      "sha256": "396bcfa7184140371b8c039210574583fdd824458e67d89a0c02b7bf3967ee83",
+      "source": "assets/sprites/perch_blink_glitch.png"
+    },
+    {
+      "name": "perch_glitch",
+      "frames": 10,
+      "fps": 15,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 678863,
+      "sourceSha256": "4d2469b9f67a79317707b38489e7345b39129367330b896b6970557f9d2cd91a",
+      "sha256": "4d2469b9f67a79317707b38489e7345b39129367330b896b6970557f9d2cd91a",
+      "source": "assets/sprites/perch_glitch.png"
+    },
+    {
+      "name": "perch_dance",
+      "frames": 16,
+      "fps": 8,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 127304,
+      "sourceSha256": "2939d6abb0c3ef11985a1ae48120fe468f27ae6f62b0b8595f42cecfe2788c36",
+      "sha256": "2939d6abb0c3ef11985a1ae48120fe468f27ae6f62b0b8595f42cecfe2788c36",
+      "source": "assets/sprites/perch_dance.png"
+    },
+    {
+      "name": "perch_arrive",
+      "frames": 14,
+      "fps": 15,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 116035,
+      "sourceSha256": "c4e0d18413e3858b981dd3f94714d99f3027b601744c4e317e6c3ca2b473aa42",
+      "sha256": "c4e0d18413e3858b981dd3f94714d99f3027b601744c4e317e6c3ca2b473aa42",
+      "source": "assets/sprites/perch_arrive.png"
+    },
+    {
+      "name": "perch_leave",
+      "frames": 12,
+      "fps": 15,
+      "frameWidth": 384,
+      "height": 384,
+      "bytes": 99779,
+      "sourceSha256": "4dc32ef524e02baa0408c72ddcb4a6ea864d27ef38fdb7732a4d253397bcfe63",
+      "sha256": "4dc32ef524e02baa0408c72ddcb4a6ea864d27ef38fdb7732a4d253397bcfe63",
+      "source": "assets/sprites/perch_leave.png"
+    }
+  ]
+}
