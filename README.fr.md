@@ -2,6 +2,8 @@
 
 # Capri
 
+Basé sur [mochiiwuff/capri-desktop](https://github.com/mochiiwuff/capri-desktop) ; les crédits et licences d’origine sont conservés.
+
 Version 0.5.1 : déplacements et rotations à cadence cible de 60 images/seconde,
 timing régulier sur les écrans rapides et cache graphique borné. Les dessins gardent
 leur cadence d’origine et les mouvements réduits restent respectés.
@@ -357,7 +359,7 @@ s'endort. Tu peux juste la laisser là.
 Il faut [Node.js](https://nodejs.org) 20 ou plus.
 
 ```bash
-git clone https://github.com/mochiiwuff/capri-desktop.git
+git clone https://github.com/Zamatsu731/capri-desktop.git
 cd capri-desktop
 npm install
 npm start

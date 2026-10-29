@@ -2,6 +2,8 @@
 
 # Capri
 
+Based on [mochiiwuff/capri-desktop](https://github.com/mochiiwuff/capri-desktop); original credits and licenses are preserved.
+
 Version 0.5.1 targets 60 fps movement and rotation, preserves display-clock phase on
 high-refresh monitors, and bounds cached hit masks. Original artwork timing and
 reduced-motion preferences are preserved. See [setup and publishing](PREMIERS-PAS.md).
@@ -319,7 +321,7 @@ asleep. You can just leave her there.
 You need [Node.js](https://nodejs.org) 20 or newer.
 
 ```bash
-git clone https://github.com/mochiiwuff/capri-desktop.git
+git clone https://github.com/Zamatsu731/capri-desktop.git
 cd capri-desktop
 npm install
 npm start
