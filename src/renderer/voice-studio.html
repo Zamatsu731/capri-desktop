@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; media-src 'self' blob:; connect-src 'self'">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Créer une voix · Capri</title><link rel="stylesheet" href="styles/voice-studio.css"></head>
+<body><main>
+<header><span class="tag">CAPRI · STUDIO VOCAL</span><h1>Une voix à elle.</h1><p>Crée un profil à partir d’un court extrait, écoute un essai, puis choisis la voix de Capri.</p></header>
+<section><h2>1 · Le moteur vocal</h2>
+<label>Moteur<select id="engine"><option value="qwen">Français et autres langues · Qwen3-TTS local</option><option value="gpt-sovits">GPT-SoVITS · serveur local déjà installé</option></select></label>
+<div id="qwen-info"><p id="engine-status" role="status">Vérification du moteur…</p><p class="hint">Premier téléchargement : plusieurs Go, puis utilisation sur ce PC. Une carte NVIDIA accélère la synthèse ; le processeur prend le relais si nécessaire.</p><button id="prepare">Préparer le moteur français</button><details><summary>Détail de la préparation</summary><pre id="progress"></pre></details></div>
+<div id="gpt-info" hidden><p>GPT-SoVITS ne prend pas officiellement le français en charge. Démarre son API sur ce PC avant de tester une voix.</p><label>Port local de l’API<input id="port" type="number" min="1024" max="65535" value="9880"></label><button id="gpt-docs" class="secondary">Ouvrir le guide GPT-SoVITS</button></div>
+</section>
+<form id="create-form"><section><h2>2 · L’extrait de référence</h2><p class="hint">Une seule personne, sans musique ni bruit, pendant 3 à 12 secondes.</p>
+<div class="row"><label class="file">Importer un extrait<input id="file" type="file" accept="audio/*"></label><button id="record" type="button" class="secondary">Enregistrer au micro</button></div>
+<p id="audio-status" role="status">Aucun extrait choisi.</p><audio id="reference" controls hidden></audio>
+<label>Nom de cette voix<input id="name" maxlength="48" value="Ma voix Capri" required></label>
+<label>Langue de l’extrait<select id="language"></select></label>
+<label>Ce qui est dit exactement dans l’extrait<textarea id="transcript" rows="3" maxlength="600" required placeholder="Exemple : Salut, c’est Capri. Je suis là pour t’aider. On reprend notre aventure ensemble ?"></textarea></label>
+<label class="check"><input id="consent" type="checkbox" required><span>C’est ma voix, ou j’ai l’autorisation de l’utiliser.</span></label>
+<button id="create" type="submit">Créer le profil vocal</button></section></form>
+<section><h2>3 · Écouter et choisir</h2><label>Mes voix<select id="profiles"><option value="">Aucune voix créée</option></select></label>
+<label>Phrase d’essai<textarea id="test-text" rows="2" maxlength="600">Salut, c’est Capri. On reprend là où on en était ?</textarea></label>
+<div class="row"><button id="test" disabled>Écouter un essai</button><button id="stop" class="secondary">Arrêter</button><button id="delete" class="danger" disabled>Supprimer</button></div>
+<audio id="preview" controls hidden></audio>
+<label class="check"><input id="read-typed" type="checkbox" checked><span>Lire aussi ses réponses aux messages écrits</span></label>
+<div class="row"><button id="activate" disabled>Utiliser cette voix pour Capri</button><button id="windows" class="secondary">Revenir à la voix Windows</button></div>
+<p id="active-status"></p></section>
+<p id="message" role="status" aria-live="polite"></p><footer>L’extrait et le profil restent sur ce PC. Le téléchargement initial vient des sources officielles ; la création de la voix n’envoie pas ton audio à un service en ligne.</footer>
+</main><script type="module" src="js/voice-studio.js"></script></body></html>
