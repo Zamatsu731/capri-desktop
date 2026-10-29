@@ -1,0 +1,24 @@
+node_modules/
+dist/
+out/
+*.log
+.DS_Store
+Thumbs.db
+
+# local debug captures
+captures/
+
+# Local configuration, private voice samples, models and credentials
+.env
+.env.*
+!.env.example
+config.json
+voices/
+speech-models/
+capri-voice-engine/
+*.wav
+*.mp3
+*.safetensors
+*.onnx
+__pycache__/
+*.pyc
